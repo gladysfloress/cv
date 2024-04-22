@@ -1,14 +1,54 @@
 /*comentar en css*/
 /*selector de etiqueta*/
 
-body{
-        font-family: "Nanum Myeongjo", serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
+body {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin: 24px;
+}
+
+header h1 {
+  text-align: end;
+  background-color: white;
+  color: #44575d;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  background-color: white;
+  color: #44575d;
+}
+
+.pink {
+  margin: 5%;
+}
+
+nav ul {
+  display: inline-block;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #44575d;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background-color: #44575d;
+  text-align: center;
+}
+
+.crema {
+  background-color: #a7b5b0;
+}
 
 
-/*selector de clase*/
 
 

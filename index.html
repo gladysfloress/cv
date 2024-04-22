@@ -10,87 +10,113 @@
     <!--Enlazar css-->
     <link rel="stylesheet" href="style.css">
 </head>
-    
+
 <body>
     <!--Hola soy un comentario-->
 
     <!-- cabecera -->
     <header class="cafe">
-        <H1>CV de Gladys Flores</H1>
 
         <!-- imagen desde un enlace interno-->
-        <img #perfil src="/MODULO_1/CLASES/IMAGEN/R9IhYM7_d.webp" alt="imagen avatar" style="height: 400px;">
-        
+        <figure>
+            <img #perfil src="/MODULO_1/CLASES/IMAGEN/R9IhYM7_d.webp" alt="imagen avatar"
+                style="height: 300px; border-radius: 50%;">
+        </figure>
+        <!-- Encabezado -->
+        <h1>Gladys Flores Diaz</h1>
+
+    </header>
+
+    <!--Seccion principal-->
+
+    <main class="crema" #grid>
         <!--Barra de navegacion-->
         <nav>
-            <ul> <!-- lista desordenada -->
+            <ul class="espacio"> <!-- lista desordenada -->
                 <!-- Enlaces internos -->
                 <li><a href="#sobre-mi">Sobre mi</a></li>
                 <li><a href="#exp-laboral">Experiencia laboral</a></li>
-                <li><a href="educacion">Educacion</a></li>
+                <li><a href="#educacion">Educacion</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="contacto">Contacto</a></li>
+                <li><a href="#contactoo">Contacto</a></li>
 
             </ul>
         </nav>
-    </header>
 
-  <!--Seccion principal-->
-  <main>
-     <section id="sobre-mi">
-            <h2>Sobre mi</h2>
-            <p>Soy una estudiante creativa, llena de ganas por aprender y conocer nuevas habilidades y conocimiento. Me destaco por ser una joven innovadora en el entorno en el que me encuentre, mi compromiso por terminar lo que comienzo y mis ganas de poder mejorar junto con mi equipo. </p>
-        </section>
-
-        <section id="exp-laboral"> 
-            <h2 class="titulo">Experiencia laboral</h2>
-            <!--articule, parte importante en mi pagina-->
-            <article>
-                <h3>Las Flores Creperia</h3>
-                <p><strong>Las Flores Creperia</strong> Diciembre 2020 - Agosto 2021</p>
-                <p>Emprendedora de una micro empresa llamada <strong>Las Flores Creperia</strong>, tenia 17 años y siempre he tenido las ganas para poder innovar en el lugar en el que me encuentre, en el lugra donde vivia no habia ninguna tienda de postres y pude innovar con mi producto, fue todo un exito en ese tiempo. Pude ver las oportunidades en el momento correcto y cubrir las necesidades en ese entonces.</p>
-            </article>
-        </section>
-        <section id="educacion">
-            <h2 class="titulo">Eucacion</h2>
-            <article>
-                <h3>Universidad Autonoma de Chiapas</h3>
-                <p><strong>Licenciatura en Administracion de empresas</strong> Agosto 2021 - Actualmente</p>
-                <p>Actualemente ando estudiando la licenciatura en <strong>administracion de empresas</strong>, cursando 3er. Semestre.</p>
-                
-                <li>Becaria de BBVA</li>
-            </article>
-
-            <article>
-                <h3>Diplomado de DEVF</h3>
-                <p><strong>Diplomado en Front-end</strong> Febreo 26/2024 - Actualmente</p>
-                <p>Actualmente ando tomando un diplomado para aprender sobre habilidades en <strong>Front-end</strong>, una rama de lenguaje de programacion.</p>
-                <li>Becaria de BECALOS para DEVF</li>
-            </article>  
-        </section>
-
-        <section id="habilidades"></section>
-        <h2>Habilidades</h2>
-        <p>Ingles | <strong>Basico</strong></p>
-        <h3>Habilidades tecnicas</h3>
-        <li>Manejo avanzado de Microsoft Office</li>
-
-
-        <!--Pie de pagina-->
-        <footer>
-            <section> 
-                <h2>Contacto</h2>
-                <h3>Email:</h3>
-                <h3>flgladys11@gmail.com</h3>
-                <h3>Telefono:</h3>
-                <p>+52 961 128 3626</p>
+        <article class="pink">
+            <section id="sobre-mi">
+                <h2>Sobre mi</h2>
+                <p>Soy una estudiante creativa, llena de ganas por aprender y conocer nuevas habilidades y conocimiento.
+                    Me destaco por ser una joven innovadora en el entorno en el que me encuentre, mi compromiso por
+                    terminar lo que comienzo y mis ganas de poder mejorar junto con mi equipo. </p>
             </section>
 
-            <h3>Redes Sociales</h3>
-            <li><a href="www.linkedin.com/in/gladys-noemi-flores-diaz-1a1a44280" target="_blank">Linkedin</a></li>
-            <li><a href="https://www.instagram.com/gladysfloress_?igsh=NTc4MTIwNjQ2YQ==" target="_blank">Instagram</a></li>
-        </footer>
+            <section id="exp-laboral">
+                <h2>Experiencia laboral</h2>
+                <!--articule, parte importante en mi pagina-->
+                <article>
+                    <h3>Las Flores Creperia</h3>
+                    <p><strong>Las Flores Creperia</strong> Diciembre 2020 - Agosto 2021</p>
+                    <p>Emprendedora de una micro empresa llamada <strong>Las Flores Creperia</strong>, tenia 17 años y
+                        siempre he tenido las ganas para poder innovar en el lugar en el que me encuentre, en el lugra
+                        donde vivia no habia ninguna tienda de postres y pude innovar con mi producto, fue todo un exito
+                        en ese tiempo. Pude ver las oportunidades en el momento correcto y cubrir las necesidades en ese
+                        entonces.</p>
+                </article>
+            </section>
 
+            <section id="educacion">
+                <h2>Educacion</h2>
+                <article>
+                    <h3>Universidad Autonoma de Chiapas</h3>
+                    <p><strong>Licenciatura en Administracion de empresas</strong> Agosto 2021 - Actualmente</p>
+                    <p>Actualemente ando estudiando la licenciatura en <strong>administracion de empresas</strong>,
+                        cursando 3er. Semestre.</p>
+
+                    <li>Becaria de BBVA</li>
+                </article>
+
+                <article>
+                    <h3>Diplomado de DEVF</h3>
+                    <p><strong>Diplomado en Front-end</strong> Febreo 26/2024 - Actualmente</p>
+                    <p>Actualmente ando tomando un diplomado para aprender sobre habilidades en
+                        <strong>Front-end</strong>, una rama de lenguaje de programacion.
+                    </p>
+                    <li>Becaria de BECALOS para DEVF</li>
+                </article>
+
+                <article>
+                    <h3>Ingles</h3>
+                    <p>Actualmente estoy estudiando en <strong>East Los Angeles Skill Center</strong> cursando el
+                        segundo nivel, beginner high, siendo una de las alumnas mas destacadas de la clase a la que
+                        asisto</p>
+                </article>
+            </section>
+
+            <section id="habilidades">
+                <h2>Habilidades</h2>
+                <p>Ingles | <strong>Basico</strong></p>
+                <h3>Habilidades tecnicas</h3>
+                <li>Manejo avanzado de Microsoft Office</li>
+
+                </div>
+            </section>
+        </article>
     </main>
+
+    <!--Pie de pagina-->
+    <footer>
+        <section id="contactoo">
+            <h2>Contacto</h2>
+            <h4>Email: flgladys11@gmail.com</h4>
+            <h4>Telefono: +52 961 128 3626</h4>
+        </section>
+
+        <h4>Redes Sociales</h4>
+        <li><a href="www.linkedin.com/in/gladys-noemi-flores-diaz-1a1a44280" target="_blank">Linkedin</a></li>
+        <li><a href="https://www.instagram.com/gladysfloress_?igsh=NTc4MTIwNjQ2YQ==" target="_blank">Instagram</a></li>
+    </footer>
+
 </body>
+
 </html>
